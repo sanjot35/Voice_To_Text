@@ -1,14 +1,11 @@
 package com.goo.voice_text;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.Locale;
-
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.view.Menu;
 import android.view.View;
@@ -52,9 +49,6 @@ public class MainActivity extends Activity {
         }
     }
 
-    /**
-     * Receiving speech input
-     * */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
